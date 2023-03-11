@@ -1,0 +1,15 @@
+args:
+  dataset: "neulab/conala"
+  parameter_for_dataset: "curated"
+  question_col: "rewritten_intent"
+  answer_col: "snippet"
+  min_length: 20
+  max_new_tokens: 100
+  top_k: 10
+  top_p: 0.9
+  do_sample: False
+  no_repeat_ngram_size: 2
+  use_cache: True
+model:
+  model_name: "gpt2"
+
