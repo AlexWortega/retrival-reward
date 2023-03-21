@@ -1,3 +1,5 @@
+#python test.py 'ckpts1/sft_50' gsm8k
+
 import argparse
 import os
 import torch
